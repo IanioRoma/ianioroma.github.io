@@ -1,0 +1,44 @@
+.multiText {
+color:rgb(27, 72, 205);
+}
+
+.backimg {
+    /* Background pattern from Toptal Subtle Patterns */
+    background-image: url("/img/linii-blue-background.jpg");
+}
+
+.backimg_h {
+    /* Background pattern from Toptal Subtle Patterns */
+    background-image: url("/img/linii-blue-background.jpg");
+}
+
+.backrgb {
+    background-color: rgb(248, 249, 250);
+}
+
+.backimg_s {
+    background: url('');
+    background-size: cover;
+    position: relative;
+}
+ 
+
+.backimg_s:before {
+  content: "";
+  background-image: url('/img/blurbgr.jpeg');
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  backdrop-filter: blur(10px);
+  opacity: 0.5; /* set the opacity of the pseudo-element */
+  z-index: -1;
+  }
+
+.abv {
+    position: relative;
+    z-index: 1;
+}
