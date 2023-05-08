@@ -1,5 +1,5 @@
 var typingEffect = new Typed(".multiText",{
-  strings : ["Website", "SEO optimisation", "Social Media Marketing"],
+  strings : ["Website", "SEO optimization", "Social Media Marketing"],
   loop : true,
   typeSpeed : 80,
   backSpeed : 50,
