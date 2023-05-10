@@ -22,8 +22,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   $message = htmlspecialchars($message);
   
   // Send email
-  $to = "your-email@example.com";
-  $subject = "New contact form submission";
+  $to = "ianiogloroma@gmail.com";
+  $subject = "Test";
   $body = "Name: $name\nEmail: $email\n\n$message";
   $headers = "From: $email";
   
