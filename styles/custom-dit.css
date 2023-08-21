@@ -1,0 +1,265 @@
+body {
+    background-color: #222529;
+  }
+
+.nav-gradient-element {
+    background: linear-gradient(to left, #6730eb, #6730eb);
+    /* Replace #ff0000 with your desired start color (e.g., red) and #00ff00 with your desired end color (e.g., green) */
+}
+
+.header-bg-color {
+    background-color: #2c3035;
+}
+
+.head-cont-size {
+    margin: 1rem 0;
+  }
+
+.custom-link-color {
+        color: #7ba6f7; /* Replace with your desired color code */
+        text-decoration: none; /* Remove underline from links */
+        padding-bottom: 1px; /* Move the underline 1 pixel below the link text */
+        border-bottom: 1px solid #7ba6f7; /* Create the underline */
+    }
+
+    /* Optional: Style for hovered links */
+.custom-link-color:hover {
+    color: #8eb3f7; /* Replace with the color when the link is hovered */
+    border-bottom: 1px solid #8eb3f7; /* Create the underline */
+
+}
+
+
+.bl-cont-color{
+    background-color: #316cf4;
+}
+
+.gr-cont-color{
+    background-color: #2c3035;
+}
+
+/* Portfolio Style */
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+
+  @media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+  }
+
+  .b-example-divider {
+    width: 100%;
+    height: 3rem;
+    background-color: rgba(0, 0, 0, .1);
+    border: solid rgba(0, 0, 0, .15);
+    border-width: 1px 0;
+    box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+  }
+
+  .b-example-vr {
+    flex-shrink: 0;
+    width: 1.5rem;
+    height: 100vh;
+  }
+
+  .bi {
+    vertical-align: -.125em;
+    fill: currentColor;
+  }
+
+  .nav-scroller {
+    position: relative;
+    z-index: 2;
+    height: 2.75rem;
+    overflow-y: hidden;
+  }
+
+  .nav-scroller .nav {
+    display: flex;
+    flex-wrap: nowrap;
+    padding-bottom: 1rem;
+    margin-top: -1px;
+    overflow-x: auto;
+    text-align: center;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .btn-bd-primary {
+    --bd-violet-bg: #712cf9;
+    --bd-violet-rgb: 112.520718, 44.062154, 249.437846;
+
+    --bs-btn-font-weight: 600;
+    --bs-btn-color: var(--bs-white);
+    --bs-btn-bg: var(--bd-violet-bg);
+    --bs-btn-border-color: var(--bd-violet-bg);
+    --bs-btn-hover-color: var(--bs-white);
+    --bs-btn-hover-bg: #6528e0;
+    --bs-btn-hover-border-color: #6528e0;
+    --bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
+    --bs-btn-active-color: var(--bs-btn-hover-color);
+    --bs-btn-active-bg: #5a23c8;
+    --bs-btn-active-border-color: #5a23c8;
+  }
+  .bd-mode-toggle {
+    z-index: 1500;
+  }
+/* END Portfolio Style */
+
+/* Define the gradient background with opacity and angle */
+.title-text-purple {
+  background: linear-gradient(180deg, #f1b8fb 20%, #a84af6 80%);
+  -webkit-background-clip: text; /* Apply gradient to text content */
+  background-clip: text; /* Apply gradient to text content */
+  color: transparent; /* Make the original text transparent */
+}
+
+.title-text-orange {
+  background: linear-gradient(180deg, #fbe596 20%, #e18939 80%);
+  -webkit-background-clip: text; /* Apply gradient to text content */
+  background-clip: text; /* Apply gradient to text content */
+  color: transparent; /* Make the original text transparent */
+}
+
+.title-text-blue {
+  background: linear-gradient(180deg, #c9ddfc 20%, #5669e5 80%);
+  -webkit-background-clip: text; /* Apply gradient to text content */
+  background-clip: text; /* Apply gradient to text content */
+  color: transparent; /* Make the original text transparent */
+}
+
+.title-text-grey {
+  background: linear-gradient(180deg, #d8ccdb 20%, #61667e 80%);
+  -webkit-background-clip: text; /* Apply gradient to text content */
+  background-clip: text; /* Apply gradient to text content */
+  color: transparent; /* Make the original text transparent */
+}
+
+.cust-div-size {
+  width: 85%; 
+  height: 300px; 
+  border-radius: 21px 21px 0 0;
+}
+
+.wd-div {
+  /* Background pattern from Toptal Subtle Patterns */
+   background-image: url("/img/index/web\ development.jpg");
+   background-size: cover; /* Scale the background image to cover the entire div */
+   background-repeat: no-repeat; /* Prevent the image from repeating */
+        
+}
+
+@media (max-width: 768px) {
+  /* Media query for screens up to 768px wide (typical mobile screens) */
+  .cust-div-size {
+      width: 100%; /* Full width for smaller screens */
+      height: 200px; /* Adjust height for smaller screens */
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  /* Media query for iPad screens (landscape and portrait) */
+  .cust-div-size {
+      width: 100%; /* Adjust width for iPads */
+      height: 200px; /* Adjust height for iPads */
+  }
+}
+
+  /* Change color DIV Media query for screens up to 768px wide */
+.change-background {  /* From Dark to grey */
+  background-color: #2c3035;
+}
+
+
+@media (max-width: 768px) {
+  .change-background { /* From grey to dark*/
+      background-color: #222529; /* Change the color for the third div on mobile devices */
+  }
+}
+
+.change-background-two {  /* From Dark to grey */
+  background-color: #222529;
+}
+
+
+@media (max-width: 768px) {
+  .change-background-two { /* From grey to dark*/
+      background-color: #2c3035; /* Change the color for the third div on mobile devices */
+  }
+}
+
+/* END change color DIV Media query for screens up to 768px wide */
+
+/* Mobile devider*/
+.mobi-devider{
+  color: transparent;
+}
+
+@media (max-width: 768px) {
+  .mobi-devider { 
+    width: 100%;
+    height: 3rem;
+    background-color: rgba(0, 0, 0, .1);
+    border: solid rgba(0, 0, 0, .15);
+    border-width: 1px 0;
+    box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+  }
+}
+
+.cust-style{
+  background-color: #222529;
+}
+
+@media (max-width: 768px) {
+  .cust-style { 
+    width: 100%;
+    height: 2rem;
+    background-color: rgba(0, 0, 0, .1);
+    border: solid rgba(0, 0, 0, .15);
+    border-width: 1px 0;
+    box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+  }
+}
+/* END mobile devider*/  
+
+
+.seo-div {
+  /* Background pattern from Toptal Subtle Patterns */
+   background-image: url("/img/index/seo.jpg");
+   background-size: cover; /* Scale the background image to cover the entire div */
+   background-repeat: no-repeat; /* Prevent the image from repeating */
+        
+}
+
+.web-ment-div {
+  /* Background pattern from Toptal Subtle Patterns */
+   background-image: url("/img/index/website_maintenance.jpg");
+   background-size: cover; /* Scale the background image to cover the entire div */
+   background-repeat: no-repeat; /* Prevent the image from repeating */
+        
+}
+
+.web-perf-div {
+  /* Background pattern from Toptal Subtle Patterns */
+   background-image: url("/img/index/performance_optimization.jpg");
+   background-size: cover; /* Scale the background image to cover the entire div */
+   background-repeat: no-repeat; /* Prevent the image from repeating */
+        
+}
+
+.cust-services-div {
+  width: 100%; /* Full width for smaller screens */
+}
+
+@media (max-width: 768px) {
+  /* Media query for screens up to 768px wide (typical mobile screens) */
+  .cust-services-div {
+      width: 100%; /* Full width for smaller screens */
+  }
+}
