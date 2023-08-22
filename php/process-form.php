@@ -3,7 +3,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     $firstName = $_POST["firstName"];
     $lastName = $_POST["lastName"];
     $email = $_POST["email"];
-    $social = $_POST["social"];
+    $social = $_POST["url"];
     $message = $_POST["message"];
     $service = $_POST["paymentMethod"];
 
