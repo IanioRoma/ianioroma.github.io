@@ -250,7 +250,7 @@ body {
    background-image: url("/img/index/performance_optimization.jpg");
    background-size: cover; /* Scale the background image to cover the entire div */
    background-repeat: no-repeat; /* Prevent the image from repeating */
-        
+   border: solid;       
 }
 
 .cust-services-div {
